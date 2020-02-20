@@ -39,8 +39,6 @@ namespace Iterative_Statement
                     Console.WriteLine(i.ToString()+ ". You entered an even number");
                 }
             }
-
-            //Console.WriteLine("Your integer is " + inputDetermination + ", will be printed " + printCounter.ToString() + " times.");
         }
     }
 }
