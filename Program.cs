@@ -25,7 +25,7 @@ namespace Iterative_Statement
                 //for loop that prints statements the amount of times equal to printCounter
                 for (i = 1; i <= printCounter; i++)
                 {
-                    Console.WriteLine("You entered an odd number");
+                    Console.WriteLine(i.ToString() + ". You entered an odd number");
                 }
             }
             else
@@ -36,11 +36,11 @@ namespace Iterative_Statement
                 //for loop that prints statements the amount of times equal to printCounter
                 for (i = 1; i <= printCounter; i++)
                 {
-                    Console.WriteLine("You entered an even number");
+                    Console.WriteLine(i.ToString()+ ". You entered an even number");
                 }
             }
 
-            Console.WriteLine("Your integer is " + inputDetermination + ", will be printed " + printCounter.ToString() + " times.");
+            //Console.WriteLine("Your integer is " + inputDetermination + ", will be printed " + printCounter.ToString() + " times.");
         }
     }
 }
