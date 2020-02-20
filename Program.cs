@@ -12,7 +12,7 @@ namespace Iterative_Statement
             int printCounter = 0;
 
             //Asks user to input integer, saves it as userInt
-            Console.WriteLine("Please enter an integer value between 2 and 10:");
+            Console.WriteLine("Enter integer between 2 and 10:");
             int userInt = Int32.Parse(Console.ReadLine());
 
             //check if input is even or odd
