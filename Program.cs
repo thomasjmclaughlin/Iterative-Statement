@@ -16,17 +16,28 @@ namespace Iterative_Statement
             int userInt = Int32.Parse(Console.ReadLine());
 
             //check if input is even or odd
+            int i; //to count
             if (userInt % 2 == 1)
             {
                 //set inputDetermination to odd
                 inputDetermination = "odd";
                 printCounter = userInt - 1;
+                //for loop that prints statements the amount of times equal to printCounter
+                for (i = 1; i <= printCounter; i++)
+                {
+                    Console.WriteLine("You entered an odd number");
+                }
             }
             else
             {
                 //set inputDetermination to even
                 inputDetermination = "even";
                 printCounter = userInt + 1;
+                //for loop that prints statements the amount of times equal to printCounter
+                for (i = 1; i <= printCounter; i++)
+                {
+                    Console.WriteLine("You entered an even number");
+                }
             }
 
             Console.WriteLine("Your integer is " + inputDetermination + ", will be printed " + printCounter.ToString() + " times.");
